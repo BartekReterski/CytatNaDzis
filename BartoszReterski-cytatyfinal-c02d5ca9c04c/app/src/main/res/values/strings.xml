@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Cytat na Dziś</string>
+    <string name="emajl">br.programmer@yahoo.com</string>
+    <string name="credits">
+        <b> Grafiki wykorzystane w aplikacji :\n</b>
+1.	<a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by LuqueStock - www.freepik.com\n</a>
+2.	<a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by aopsan - www.freepik.com\n</a>
+3.	<a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by kjpargeter - www.freepik.com\n</a>
+4.	<a href="https://www.freepik.com/free-photos-vectors/background">Background psd created by rawpixel.com - www.freepik.com\n</a>
+5.	<a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by rawpixel.com - www.freepik.com\n</a>
+6.	<a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by fwstudio - www.freepik.com\n</a>
+7.	<a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by macrovector - www.freepik.com\n</a>
+8.	<a href="http://www.freepik.com">Designed by starline / Freepik\n</a>
+9.  <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by rawpixel.com - www.freepik.com\n</a>
+10. <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by visnezh - www.freepik.com\n</a>
+11. <div>Icons made by <a href="https://www.flaticon.com/authors/retinaicons" title="Retinaicons">Retinaicons</a></div>
+
+    </string>
+
+</resources>

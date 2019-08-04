@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#006064</color>
+    <color name="colorPrimaryDark">#00363a</color>
+    <color name="colorAccent">#EE0E1D</color>
+    <color name="bialy">#f7ffe8</color>
+    <color name="splashscreen">#233132</color>
+    <color name="splashcreentext">#CCC43F</color>
+    <color name="fvoriteitem">#9FDCB3</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

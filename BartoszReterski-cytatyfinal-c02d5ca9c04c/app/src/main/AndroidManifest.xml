@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cytatnadzis.cytaty">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ikonka"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ikonka"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name="com.cytatnadzis.cytaty.activities.About_App_Acitivity"></activity>
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7746007065654957~3833214947" />
+
+        <activity android:name="com.cytatnadzis.cytaty.activities.Favorite" />
+        <activity android:name="com.cytatnadzis.cytaty.notifications.Notifications" />
+        <activity android:name="com.cytatnadzis.cytaty.activities.WikiActivity" />
+        <activity android:name="com.cytatnadzis.cytaty.MainActivity" />
+        <activity
+            android:name="com.cytatnadzis.cytaty.activities.SplashActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.cytatnadzis.cytaty.notifications.AlertReceiver" />
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/wikipedia"
+        android:orderInCategory="300"
+        android:title="Wikipedia"
+        android:icon="@drawable/wiki"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/favorites"
+        android:orderInCategory="300"
+        android:title="Wikipedia"
+        android:icon="@drawable/favorite"
+        app:showAsAction="ifRoom" />
+
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="301"
+        android:title="Powiadomienia"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/informacje_o_aplikacji"
+        android:orderInCategory="301"
+        android:title="Informacje o aplikacji"
+        app:showAsAction="never" />
+
+</menu>
